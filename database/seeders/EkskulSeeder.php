@@ -9,8 +9,8 @@ class EkskulSeeder extends Seeder
 {
     public function run(): void
     {
-        Ekskul::create(['nama' => 'Basket']);
-        Ekskul::create(['nama' => 'Pramuka']);
-        Ekskul::create(['nama' => 'Paskibra']);
+        Ekskul::create(['nama_ekskul' => 'Basket']);
+Ekskul::create(['nama_ekskul' => 'Pramuka']);
+
     }
 }
