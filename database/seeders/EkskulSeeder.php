@@ -2,16 +2,15 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\Ekskul;
 
 class EkskulSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
-        //
+        Ekskul::create(['nama' => 'Basket']);
+        Ekskul::create(['nama' => 'Pramuka']);
+        Ekskul::create(['nama' => 'Paskibra']);
     }
 }
